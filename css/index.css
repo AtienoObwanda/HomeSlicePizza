@@ -14,3 +14,34 @@
     padding-right: 1em;
   }
 }
+
+body, html {
+  height: 100%;
+}
+.bg {
+  /* The image used */
+  /*background-image: url('./image/');*/
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*Logo*/
+.siteLogo{
+  width: 70px;
+  height: 40px;
+}
+.btn-rounded{
+  border-radius: 10%;
+}
+.card-body img{
+  height: 100%;
+  width: 100%;
+}
+/*PIZZA CARDS*/
+
+

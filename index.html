@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Place Pizza</title>
+    <title>Home Slice Pizza</title>
     <!--SCRIPTS-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <!-- Font Awesome -->
@@ -20,67 +20,93 @@
 </head>
 <body>
     <div class="main">
-        <!--NAVIGATION AREA-->
-        <div class="navigation">
-            <div class="nav-logo">
-                <div class="header">
-                    <div class="col-md-11 text-center text-primary" style="align-content: space-between;">
-                        <!-- <i class="fa fa-phone" aria-hidden="true">+254 743 068 355</i> -->
-
-                    </div>      
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+            <div class="container">
+                
+                <a class="navbar-brand" href="#">
+                   <!-- <strong>Home SLICE</strong> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+                    <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home"><strong>Home</strong>
+                        <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about"><strong>About Us</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu"><strong>Menu</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu"><strong>Contact</strong></a>
+                    </li>
+                    </ul>
+                    <ul class="navbar-nav sm-icons mr-0">
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="nav-tem"><a class="nav-link" href="#"><i class="fa fa-mobile" aria-hidden="true">+254 743 068 355</i></a></li>
+                    </ul>
+                    <button type="button" class="btn btn-light btn-rounded">PLACE YOUR ORDER</button>
+                 </div>
                 </div>
-                <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffff; width: 100%; align-self: center;">
-                    <!--<a class="navbar-brand" href="#"><img src="./images/logos/logo1.png"></a>-->
-                    <img src="./images/logos/logo1.png" alt="logo" style="width:9%; height:2%;">
-
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbarToggler10"
-                        aria-controls="myNavbarToggler10" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="myNavbarToggler10">
-                        <ul class="navbar-nav mx-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#home">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#about">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#menu">Menu</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contact">Contact</a>
-                            </li>
-                            <ul class="navbar-nav sm-icons mr-0">
-                                
-                            </ul>
-                        </ul>
-                        <ul class="navbar-nav sm-icons mr-0">
-                            <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-instagram"></i></a></li>
-                            <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li class="nav-tem"><a class="nav-link" href="#"><i class="fa fa-mobile" aria-hidden="true">+254 743 068 355</i></a></li>
-                        </ul>
-                        <button style='font-size:12px'>PLACE YOUR ORDER</button>
-                    </div>
-                </nav>
-            </div>
-
-        </div>
+            </nav>
+        
         <!--HOME-->
         <div class="home" id="home">
-
+            <!--
+                <div class="siteLogo">
+                    <img src="./images/logos/logo1.png" alt="LOGO" id="siteLogo">
+                </div>
+            -->
+            <div class="bg">
+                <img src="./images/background/bg/6.png"alt="pizza">
+            </div>
+            
         </div>
         <!--ABOUT-->
-        <div class="about" id="about">
-
+        <div class="container about" id="about">
+            <h1>ABOUT US</h1>
+            <div class="container">
+                <div class="row">
+                  <div class="col-md">
+                    One of three columns
+                    One of three columns
+                    One of three columns
+                    One of three columns
+                    One of three columns
+                  </div>
+                  <div class="col-md">
+                    <img src="./images/background/card/abt.png" style="height: 100%; width: 100%;" alt="about-us">
+                  </div>
+                  
+                </div>
+              </div>
         </div>
         <!--CARDS-CAROSEL-->
-        <div class="pizzaCards">
-
-        </div>
-        <!--MENU-AS-CARDS-->
-        <div class="menu" id="menu">
+        <div class="container pizzaCards">
+           <h1>Moth Watering Pizza</h1>
+           <div class="container">
+            <div class="row">
+              <div class="col-md">
+                One of three columns
+              </div>
+              <div class="col-md">
+                One of three columns
+              </div>
+              <div class="col-md">
+                One of three columns
+              </div>
+            </div>
+          </div>
+         </div>
+         <!--MENU-AS-CARDS-->
+         <div class="menu" id="menu">
 
         </div>
         <!--ORDER DETAILS-->
@@ -88,6 +114,10 @@
 
         </div>
         <!--CONTACT-->
+        <div class="contact" id="contact">
+
+        </div>
+        <!--footer-->
         <div class="contact" id="contact">
 
         </div>
