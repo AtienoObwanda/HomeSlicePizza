@@ -7,6 +7,7 @@
     <title>Home Slice Pizza</title>
     <!--SCRIPTS-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <!-- Google Fonts -->
@@ -16,7 +17,7 @@
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
     <!--CUSTOM CSS-->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <div class="main">
@@ -90,35 +91,90 @@
         </div>
         <!--CARDS-CAROSEL-->
         <div class="container pizzaCards">
-           <h1>Moth Watering Pizza</h1>
-           <div class="container">
-            <div class="row">
-              <div class="col-md">
-                One of three columns
-              </div>
-              <div class="col-md">
-                One of three columns
-              </div>
-              <div class="col-md">
-                One of three columns
-              </div>
+           <h1>Mouth Watering Pizza</h1>
+           
+          <div class="row">
+            <div class="col-4">
+                <img src="./images/background/card/card1.png" style="height: 100%; width: 100%;" alt="pizza">
+            </div>
+            <div class="col-4">
+                <img src="./images/background/card/card1.png" style="height: 100%; width: 100%;" alt="pizza">
+            </div>
+            <div class="col-4">
+                <img src="./images/background/card/card1.png" style="height: 100%; width: 100%;" alt="pizza">
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-4">
+                <img src="./images/background/card/card1.png" style="height: 100%; width: 100%;" alt="pizza">
+            </div>
+            <div class="col-4">
+                <img src="./images/background/card/card1.png" style="height: 100%; width: 100%;" alt="pizza">
+            </div>
+            <div class="col-4">
+                <img src="./images/background/card/card1.png" style="height: 100%; width: 100%;" alt="pizza">
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-4">
+                <img src="./images/background/card/card1.png" style="height: 100%; width: 100%;" alt="pizza">
+            </div>
+            <div class="col-4">
+                <img src="./images/background/card/card1.png" style="height: 100%; width: 100%;" alt="pizza">
+            </div>
+            <div class="col-4">
+                <img src="./images/background/card/card1.png" style="height: 100%; width: 100%;" alt="pizza">
             </div>
           </div>
          </div>
          <!--MENU-AS-CARDS-->
-         <div class="menu" id="menu">
+         <div class="container menu" id="menu">
+             <h1>MENU</h1>
+
 
         </div>
         <!--ORDER DETAILS-->
-        <div class="order" id="order">
+        <div class="container order" id="order">
+            <h1>PLACE YOUR ORDER</h1>
 
         </div>
         <!--CONTACT-->
-        <div class="contact" id="contact">
-
+        <div class="container-fluid contact" id="contact">
+            <h1 class="text-center">CONTACT US</h1>
+            <form id="contactform" action="" method="" id="" name="">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" name="name" class="form-control" id="nam" required placeholder = "Name....">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" name="email" class="form-control" id="em" required placeholder = "Email....">
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                       <div class="md-form mb-0">
+                            <textarea class="form-control md-textarea" rows="8" id="comment" required placeholder = "Your message here...."></textarea>
+                       </div>
+                    </div>
+                </div>
+              
+                <div class="text-center text col-md-10">
+                    <button class="btn btn-primary" type="submit" >SEND</button>
+                    
+                </div>
+            </form>
+            
+    
         </div>
         <!--footer-->
-        <div class="contact" id="contact">
+        <div class="footer" id="footer">
 
         </div>
 
