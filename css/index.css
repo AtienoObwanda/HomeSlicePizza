@@ -127,3 +127,24 @@ button{
    .footer text{
        color: #582719;
    }
+   .menuContainer{
+    background-image: url(../images/background/bg/menu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 55vh;
+    color: white;
+    font-family: cursive;
+  }
+  .menu h1{
+    text-align: center;
+  }
+  .orderContainer{
+    background-image: url(../images/background/bg/order.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 55vh;
+    color: white;
+    font-family: cursive;
+  }
