@@ -117,12 +117,48 @@
             <div class="container order" id="order">
                 <h1>PLACE YOUR ORDER</h1>
                 <div class="row">
-                    <div class="col-4">
-                        <img src="./images/background/card/card5.png" style="height: 100%; width: 100%;" alt="pizza">
-                    </div>
-                    <div class="col-4">
-                        <img src="./images/background/card/card5.png" style="height: 100%; width: 100%;" alt="pizza">
-                    </div>
+                  <div class="col-sm-5">
+                      <form action="">
+                          <label for="select"> Flavour </label>
+                          <select class="browser-default custom-select custom-select-md mb-3 name">
+                                <option value="Chicken Tikka">Chicken Tikka</option>
+                                <option value="PeriPeri Pizza">PeriPeri Pizza</option>
+                                <option value="Raspberry Dessert Pizza">Raspberry Dessert Pizza</option>
+                                <option value="Chicken Alfredo Pizza">Chicken Alfredo Pizza</option>
+                                <option value="Sunchoke Pizza">Sunchoke Pizza</option>
+                                <option value="Buffalo Chicken Sticks">Buffalo Chicken Sticks</option>
+                            </select>
+                            <label for="select"> Size </label>
+                            <select class="browser-default custom-select custom-select-md mb-3" id="size">
+                                <option selected value="0">Select size here</option>
+                                <option value="large">Large -- sh. 1200</option>
+                                <option value="medium">Medium -- sh. 850</option>
+                                <option value="small">Small -- sh. 600</option>
+                              </select>
+                              <label for="crust"> Crust </label>
+                              <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+                                <option selected value="0">Select your preferred crust!</option>
+                              <option value="Crispy">Crispy -- sh. 200</option>
+                              <option value="Stuffed">Stuffed -- sh. 150</option>
+                              <option value="Gluten-free">Gluten-free-- sh. 180</option>
+                            </select>
+                          <label for="Toppings">Select Your Toppings at sh. 50 each</label><br>
+                            <div class="custom-control custom-checkbox custom-control-inline">
+                              <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage" name="toppings">
+                              <label class="custom-control-label" for="Sausage">Sausage</label>
+                            </div>
+                            <div class="custom-control custom-checkbox custom-control-inline">
+                              <input type="checkbox" class="custom-control-input" id="Bacon" value="Bacon" name="toppings">
+                              <label class="custom-control-label" for="Bacon">Bacon</label>
+                            </div>
+                            <div class="custom-control custom-checkbox custom-control-inline">
+                              <input type="checkbox" class="custom-control-input" id="Mushrooms" value="Mushrooms" name="toppings">
+                              <label class="custom-control-label" for="Mushrooms">Mushrooms</label>
+                            </div>
+                            <br><br>
+                            <button type="submit" class="btn btn-orange proceed">Place YOur Order</button>
+                      </form>
+                  </div>  
                   </div>
     
             </div>
