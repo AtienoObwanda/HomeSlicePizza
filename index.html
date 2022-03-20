@@ -55,7 +55,7 @@
                         <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-twitter"></i></a></li>
                         <li class="nav-tem"><a class="nav-link" href="#"><i class="fa fa-mobile" aria-hidden="true">+254 743 068 355</i></a></li>
                     </ul>
-                    <button type="button" class="btn btn-light btn-rounded">PLACE YOUR ORDER</button>
+                    <a href="#order"  class="btn btn-light btn-rounded">PLACE YOUR ORDER</a>
                  </div>
                 </div>
             </nav>
@@ -73,7 +73,7 @@
             
         </div>
         <!--ABOUT-->
-        <div class="container about" id="about">
+        <div class="container-fluid about" id="about">
             <h1>ABOUT US</h1>
             <div class="container">
                 <div class="row">
@@ -96,29 +96,38 @@
                 </div>
               </div>
         </div>
-        <div class="container-fluid menuContainer">
-          <div class="container menu" id="menu">
+        <div class="container-fluid menuContainer" id="menu">
+          <div class="container menu">
              <h1>MENU</h1>
-             <div class="row">
-                <div class="col-4">
-                    <img src="./images/background/card/card3.png" style="height: 100%; width: 100%;" alt="pizza">
-                </div>
-                <div class="col-4">
-                    <img src="./images/background/card/card3.png" style="height: 100%; width: 100%;" alt="pizza">
-                </div>
-                <div class="col-4">
-                    <img src="./images/background/card/card3.png" style="height: 100%; width: 100%;" alt="pizza">
-                </div>
-              </div>
+             <div class="row" style="align-content: center;">
+                <div class="card">
+                    <img src="./images/background/card/card5.png" class="card-img-top" alt="...">
+                    <div class="card-body" style="background-image: url('./images/background/bg/wood.jpg'); background-repeat: no-repeat; width: 100%;">
+                      <h5 class="card-title" style="font-weight: bold; text-align: center;">HOME SLICE DELUXE PIZZAS</h5>
+                      <ul class="list-group list-group-flush" style="background-color: transparent;">
+                        <li class="list-group-item"style="background-color: transparent;">BBQ Steak >> marinated BBQ steak</li>
+                        <li class="list-group-item"style="background-color: transparent;">Chicken Tikka >> marinated tikka chicken</li>
+                        <li class="list-group-item"style="background-color: transparent;">Chicken Hawaiian >> succulent BBQ chicken</li>
+                        <li class="list-group-item"style="background-color: transparent;">Beef Pepperoni Plus >> double beef pepperoni</li>
+                        <li class="list-group-item" style="background-color: transparent;">Peri Peri Chicken >> spicy peri-peri chicken</li>
+                      </ul>
+                     <!--
+                         <a href="#" class="btn btn-primary">ORDER</a>
+                    -->
+                    </div>
+                  </div>
+                  
+                
         </div>
     </div>
+    </div>
         <!--ORDER DETAILS-->
-        <div class="container-fluid orderContainer">
-            <div class="container order" id="order">
+        <div class="container-fluid orderContainer" id="order">
+            <div class="container order" >
                 <h1>PLACE YOUR ORDER</h1>
                 <div class="row">
                   <div class="col-sm-5">
-                      <form action="">
+                      <form action="" style="background-image: url('./images/background/card/card7.png');">
                           <label for="select"> Flavour </label>
                           <select class="browser-default custom-select custom-select-md mb-3 name">
                                 <option value="Chicken Tikka">Chicken Tikka</option>
@@ -156,10 +165,10 @@
                               <label class="custom-control-label" for="Mushrooms">Mushrooms</label>
                             </div>
                             <br><br>
-                            <button type="submit" class="btn btn-orange proceed">Place YOur Order</button>
+                            <button type="submit" class="btn btn-light btn-rounded proceed">Place YOur Order</button>
                       </form>
                   </div>
-                  <div class="col-sm-7">
+                  <div class="col-sm-7 orderDetails">
                       <div id="information">
                           <p>
                               Enter your details to conffirm your order:
@@ -193,17 +202,17 @@
                                 <p id="addedprice">Delivery will cost sh. 150</p>
                                 <p id="finallmessage"></p>
                           </div>
-                          <button class="btn btn-orange addPizza">Add Pizza</button>
-                          <button class="btn btn-orange" id="checkout">Checkout</button>
-                          <button class="btn btn-orange deliver">Home delivery?</button>
+                          <button class="btn btn-light btn-rounded addPizza">Add Pizza</button>
+                          <button class="btn btn-light btn-rounded" id="checkout">Checkout</button>
+                          <button class="btn btn-light btn-rounded deliver">Home delivery?</button>
                       </div>
                       <div class="delivery">
                         <form action="">
                             <div class="form-group">
                               <input type="text" id="name" class="form-control mb-3" placeholder="Name">
-                              <input type="number" id="phone" class="form-control mb-3" placeholder="Pnone Number">
+                              <input type="number" id="phone" class="form-control mb-3" placeholder="Phone Number">
                               <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
-                              <button class="btn btn-orange" id="final-order">Place Order</button>
+                              <button class="btn btn-light btn-rounded" id="final-order">Place Order</button>
                             </div>
                           </form>
                       </div>
@@ -237,7 +246,7 @@
                 </div>
               
                 <div class="text-center text col-md-10">
-                    <button class="btn btn-primary" type="submit">SEND</button>
+                    <button class="btn btn-light btn-rounded" type="submit">SEND</button>
                     
                 </div>
             </form>
@@ -246,7 +255,7 @@
         </div>
         <!--footer-->
         <div class="footer"> 
-            <h1>Home Slice Pizza | Atieno Obwanda Copyright ©2022</h1>      
+            <h1>Home Slice Pizza | Copyright ©2022 | Atieno Obwanda </h1>      
     </div> 
 
     </div>
