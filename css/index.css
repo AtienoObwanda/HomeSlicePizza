@@ -182,6 +182,97 @@ button{
     margin-bottom: 2em!important;
    
   }
-.delivery{
+  .placeOrder {
+    padding-top: 10px;
+}
+
+h2 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.button {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    padding-right: 30px;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.btnContinue{
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
   color: black;
+  padding: 15px 32px;
+  padding-right: 30px;
+  margin-right: 1%;
+  margin-bottom: 1%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}
+.btnContinue :hover{
+  background-color: rgba(255, 255, 255, 0.8);
+
+}
+.confirmOrder,
+.getDelivery {
+    display: none;
+}
+
+input[type=checkbox],
+input[type=text],
+input[type=tel],
+input[type=number],
+select {
+    width: 100%;
+    padding: 8px 12px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.checkbox {
+    display: inline-block;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+
+.form {
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.order-total {
+    display: none;
+}
+
+.confirm-order {
+    border: 6px solid #948473;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.table-buttons {
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
