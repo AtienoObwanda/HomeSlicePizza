@@ -151,6 +151,8 @@ button{
     height: 68vh;
     color: white;
     font-family: cursive;
+    margin-bottom: 3em!important;
+
   }
   .order h1{
     text-align: center;
@@ -175,6 +177,8 @@ button{
     font-family: cursive;
     line-height: 35px;
     margin-top: 2em!important;
+    margin-bottom: 3em!important;
+
   }
   .about h1{
     text-align: center;
