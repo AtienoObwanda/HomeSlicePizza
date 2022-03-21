@@ -3,22 +3,20 @@ Web application for ordering pizza online.
 
 ![Alt text](./images//screenshots/main.png?raw=true "Optional Title")
 
-****
-
-#### Author
+#### **Author**
 
 [Atieno Obwanda](https://github.com/AtienoObwanda)
 
 ****
 
 #### **Description**
-*This is a venture to widen the customer base of a fictional pizza place by creating a web application where your customers can order different sizes of pizzas with one or more toppings with the option of home delivery.*
+*Home Slice Pizza a web application where your customers are able to order different sizes of pizzas, different flavors, with one or more toppings, and with the option of eithe home delivery at a fee, or take out(pick up)*
 </br>
 
 **Fixed Transparent Navigation Bar:** </br>
 ![Alt text](./images/screenshots/NavBarTransparent.png?raw=true "Optional Title")
 
-**Navigation Bar Solid Background color on Scroll:** </br>
+**Navigation Bar with a Solid Background color on Scroll:** </br>
 ![Alt text](./images/screenshots/navbarOnScroll.png?raw=true "Optional Title")
 
 **About Us Section:** </br>
@@ -49,6 +47,9 @@ Web application for ordering pizza online.
 **CSS**</br>
 **Bootstrap**</br>
 
+****
+
+
 #### **BDD**
 | Behaviour            | Input                | Expected OUtput  |
 | ---------------------|:--------------------:| ----------------:|
@@ -61,13 +62,16 @@ Web application for ordering pizza online.
 | Opt to Check out | Click on checkout button | Out puts total cost |
 
 
-# Known bugs
-THe page is not yet fully responsive.
+#### **Known bugs**
+The specified fonts may fail to load, depending on your browser.
+****
 
-# Contact Information
+#### **Contact Information**
 Incase of any question or contributions, you can reach me through:{atienoobwanda@gmail.com}
+****
 
-# License
+
+#### **License**
 MIT License
 
 Copyright (c) 2022 [Atieno Obwanda](https://github.com/AtienoObwanda)
