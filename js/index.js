@@ -1,15 +1,14 @@
 //ON SCROLL NAV BAR
-$(document).ready(function(){
-    $(window).scroll(function(){
-        if($(window).scrollTop() > $(window).height()){
-            $(".menu").css({"background-color":"transparent"});   
-        }
-        else{
-            $(".menu").css({"background-color":"white"});
-        }
-
-    })
-})
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    
+    document.getElementById("navbar").style.background = "#ffffff";
+  } else {
+   
+    document.getElementById("navbar").style.background = "none";
+  }
+}
 //FORM ACTION
 $(document).ready(function(){
     //$(btnContact).click(function(e){
