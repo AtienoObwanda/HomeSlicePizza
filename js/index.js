@@ -10,10 +10,11 @@ function scrollFunction() {
   }
 }
 //FORM ACTION
+    //reload
+    //location.reload();
+
 $(document).ready(function(){
-    //$(btnContact).click(function(e){
-        //e.preventDefault();
-    $("form3").submit(function(e){
+    $("#takeOut").click(function() {
       e.preventDefault();
       var name =$("#nam").val();
       //var name = $("input#nam").val();
@@ -23,6 +24,7 @@ $(document).ready(function(){
     });
   });
 
+  
 function Pizza(pizza, size, crust, toppings) {
   this.pizza = pizza;
   this.size = size;
@@ -32,7 +34,7 @@ function Pizza(pizza, size, crust, toppings) {
 
 var priceSize, priceCrust, priceTopping;
 
-//pizza price
+//Get pizza price
 var price = function(pizzaSize, crust, pizzaTopping) {
   switch (pizzaSize) {
       case "":
@@ -105,17 +107,17 @@ $(document).ready(function(){
       var order = new Pizza(pizzaName, pizzaSize, crust, pizzaTopping)
       $(".current-order").append('<tr><td id="name">' + order.pizza + '</td><td id="size">' + order.size + '</td><td id="crust">' + order.crust + '</td><td id="toppings">' + order.toppings + '</td><td id="total">' + total);
 
-      //Pickup button
+      //check out
       $("#takeOut").click(function() {
-          alert("Hello " + personName + ", your take out will be ready for pickup in 15 minutes. Total amount expected: " + total);
+          alert("Dear your take out will be ready for pickup in 15 minutes. Total amount expected: " + total + "Thank you for choosing HOME SLICE!");
 
-          //refresh page
+          //reload
           location.reload();
       })
 
-      //Checkout button
+      //Checkout 
       $("#checkout").click(function() {
-          //form data
+          
           var personName = $("#pName").val();
           var clientNumber = $("#phone-number").val();
           var clientLocation = $("#location").val();
@@ -123,7 +125,7 @@ $(document).ready(function(){
           if (personName === "" || clientNumber === "" || clientLocation === "") {
               alert("KIndly fill in the delivery form. All fields are required!")
           } else {
-              alert("Hello " + personName + " your order has been successfully queued,and will be delivered at: " + clientLocation + " in 30 minutes! The total for is: " +
+              alert("Dear " + personName + "Thank you for choosing HOME SLICE! Your order has been successfully queued,and will be delivered at: " + clientLocation + " in 30 minutes! The total for is: " +
                   grandTotal);
           }
       })
