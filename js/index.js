@@ -1,15 +1,14 @@
 //ON SCROLL NAV BAR
-$(document).ready(function(){
-	$(window).on("scroll",function(){
-  	var wn = $(window).scrollTop();
-    if(wn > 120){
-    	$(".navbar").css("background","rgba(255,0,0,1)");
+/*
+$(document). ready(function(){
+    $(window). scroll(function(){
+    if($(window). scrollTop() > $(window). height()){
+    $(".navbar"). css({"background-color":"transparent"});
     }
     else{
-    	$(".navbar").css("background","rgba(1,1,1,1)");
-    }
-  });
-});
+    $(".navbar"). css({"background-color":"white"});
+    } 
+    */
 //FORM ACTION
 $(document).ready(function(){
     //$(btnContact).click(function(e){
