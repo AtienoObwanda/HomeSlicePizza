@@ -30,7 +30,7 @@ body, html {
   background-size: cover;
   background-position: center center;
   color: white;
-  font-family: cursive;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   height: 95vh;
   vertical-align: middle;
   padding: 18%;
@@ -43,18 +43,7 @@ body, html {
   margin-top: -4%;
   
 }
-/*
-.logo {
-  margin-right: 40%;
-}
 
-.logo img {
-  width: 100px;
-  height: 100px;
-  margin-left: 10px;
-  
-}
-*/
 .card{
   color: white;
   margin-left: 20em;
@@ -151,8 +140,7 @@ button{
     background-size: cover;
     background-position: center center;
     height: 89vh;
-    
-    font-family: cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-bottom: 2em!important;
     margin-top: 2em!important;
 
@@ -168,14 +156,14 @@ button{
     background-position: center center;
     height: 68vh;
     color: white;
-    font-family: cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-bottom: 3em!important;
 
   }
   .order h1{
     text-align: center;
     color: black;
-    font-family: cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 900;
     margin-bottom: 1em;
   }
@@ -192,7 +180,7 @@ button{
     color: black;
   }
   .about{
-    font-family: cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 35px;
     margin-top: 2em!important;
     margin-bottom: 3em!important;
@@ -209,8 +197,8 @@ button{
 }
 
 h2 {
-    font-family: 'Permanent Marker', cursive;
-    font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 50px;
     padding-bottom: 10px;
 }
 
