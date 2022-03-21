@@ -106,6 +106,8 @@
                 </div>
               </div>
         </div>
+        <!--
+            
         <div class="container-fluid menuContainer" id="menu">
           <div class="container menu">
              <h1>MENU</h1>
@@ -121,9 +123,7 @@
                         <li class="list-group-item"style="background-color: transparent;">Beef Pepperoni Plus >> double beef pepperoni</li>
                         <li class="list-group-item" style="background-color: transparent;">Peri Peri Chicken >> spicy peri-peri chicken</li>
                       </ul>
-                     <!--
-                         <a href="#" class="btn btn-primary">ORDER</a>
-                    -->
+                    
                     </div>
                   </div>
                   
@@ -131,12 +131,13 @@
         </div>
     </div>
     </div>
+    -->
         <!--ORDER DETAILS-->
         <div class="container-fluid orderContainer" id="order">
             <div class="container order" >
                 <h1>PLACE YOUR ORDER</h1>
                 <div class="row">
-                    <div class="main col-md-8 offset-3" style="background-image: url('./images/background/card/card4.png');">
+                    <div class="main col-md-8 offset-2 formContainer" style="background-image: url('./images/background/card/card5.png');">
                         <div class="placeOrder">
                             <form id="form1" class="form" name="form1" action="">
                                 <legend>Place your order here:
@@ -163,33 +164,34 @@
                                 <label for="crust">Select a crust</label>
                                 <select id="crust" name="crust">
                                         <option disabled selected>Pizza crust</option>
-                                        <option value="crispy">CRISPY --- Ksh. 100</option>
-                                        <option value="stuffed">STUFFED(cheese pockets) --- Ksh.200</option>
-                                        <option value="gluten">GLUTEN FREE  --- Ksh.150</option>
+                                        <option value="crispy">Crispy --- Ksh. 100</option>
+                                        <option value="stuffed">Stuffed Cheese --- Ksh.200</option>
+                                        <option value="gluten">Glutten free  --- Ksh.150</option>
                                 </select>
         
-                                <label for="toppings">Select your extra toppings</label><br>
-                                <p>Depending on Pizza size</p>
+                                <label for="toppings">Depending on Pizza size: Select extra toppings</label><br>
                                 <p>Small >> Ksh.50 Medium >> Ksh.100 Large >> Ksh. 150</p>
                                 <div class="checkbox">
-                                    <input type="checkbox" value="sausage" name="toppings" id="sausage">
-                                    <label for="Sausage">SAUSAGE</label>
-                                </div>
-                                <div class="checkbox">
-                                    <input type="checkbox" value="cheese" name="toppings" id="cheese">
-                                    <label for="cheese">CHEESE</label>
-                                </div>
-                                <div class="checkbox">
                                     <input type="checkbox" value="mushroom" name="toppings" id="mushroom">
-                                    <label for="mushroom">MUSHROOM</label>
+                                    <label for="mushroom">Mushroom</label>
                                 </div>
                                 <div class="checkbox">
                                     <input type="checkbox" value="bacon" name="toppings" id="bacon">
-                                    <label for="bacon">BACON</label>
+                                    <label for="bacon">Bacon</label>
+
+                                </div>
+                                <div class="checkbox">
+                                    <input type="checkbox" value="sausage" name="toppings" id="sausage">
+                                    <label for="Sausage">Sausages</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input type="checkbox" value="cheese" name="toppings" id="cheese">
+                                    <label for="cheese">Extra Cheese</label>
+
                                 </div><br>
         
                                 <!-- <span class="button" id="add-pizza">Another pizza</span> -->
-                                <input type="submit" value="CONTINUE" class="btnContinue" id="continue">
+                                <input type="submit" value="CONFIRM ORDER" class="btnContinue" id="continue">
                                 <div class="output"></div>
                             </form>
                         </div>
@@ -252,7 +254,8 @@
         <!--CONTACT-->
         <div class="container-fluid contact" id="contact">
             <h1 class="text-center">CONTACT US</h1>
-            <form id="contactform" action="">
+            <div class="main col-md-8 offset-2 formContainer">
+            <form class="contactForm" id="contactform" name="form3" action="">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="md-form mb-0">
@@ -269,18 +272,17 @@
                 <div class="row">
                     <div class="col-md-12">
                        <div class="md-form mb-0">
-                            <textarea class="form-control md-textarea" rows="8" id="comment" required placeholder = "Your message here...."></textarea>
+                            <textarea class="form-control md-textarea" rows="4" id="comment" required placeholder = "Your message here...."></textarea>
                        </div>
                     </div>
                 </div>
               
-                <div class="text-center text col-md-10">
-                    <button class="btn btn-light btn-rounded" type="submit">SEND</button>
+                <div class="text-center text col-md-12">
+                    <button class="btn btn-light btn-rounded btnContact" type="submit">SEND</button>
                     
                 </div>
             </form>
-            
-    
+        </div>
         </div>
         <!--footer-->
         <div class="footer"> 

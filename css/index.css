@@ -148,7 +148,7 @@ button{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 55vh;
+    height: 68vh;
     color: white;
     font-family: cursive;
   }
@@ -157,7 +157,7 @@ button{
     color: black;
     font-family: cursive;
     font-weight: 900;
-    margin-bottom: 0.5m;
+    margin-bottom: 1em;
   }
   .order label{
     font-weight: bold;
@@ -206,6 +206,9 @@ h2 {
     font-size: 16px;
 }
 
+.form p{
+  color: #FFFFFF;
+}
 
 .button:hover {
     background-color: rgba(255, 255, 255, 0.8);
@@ -216,7 +219,7 @@ h2 {
   color: black;
   padding: 15px 32px;
   padding-right: 30px;
-  margin-right: 1%;
+  margin-right: 5%;
   margin-bottom: 1%;
   text-align: center;
   text-decoration: none;
@@ -228,6 +231,7 @@ h2 {
   background-color: rgba(255, 255, 255, 0.8);
 
 }
+
 .confirmOrder,
 .getDelivery {
     display: none;
@@ -259,6 +263,11 @@ select {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.formContainer{
+  border-radius: 15px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 .order-total {
     display: none;
 }

@@ -1,3 +1,17 @@
+//FORM ACTION
+$(document).ready(function(){
+    //$(btnContact).click(function(e){
+        //e.preventDefault();
+    $("form3").submit(function(e){
+      e.preventDefault();
+      var name =$("#nam").val();
+      //var name = $("input#nam").val();
+      alert("Hello " + name + ", we have received your message! Thank you for reaching out to us.");
+      //refresh page
+      $('#contactform').trigger("reset");
+    });
+  });
+
 function Pizza(pizza, size, crust, toppings) {
   this.pizza = pizza;
   this.size = size;
