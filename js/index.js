@@ -40,13 +40,13 @@ var price = function(pizzaSize, crust, pizzaTopping) {
           priceSize = 0;
           break;
       case "large":
-          priceSize = 1000;
+          priceSize = 1200;
           break;
       case "medium":
-          priceSize = 800;
+          priceSize = 1000;
           break;
       case "small":
-          priceSize = 550;
+          priceSize = 650;
           break;
       default:
         

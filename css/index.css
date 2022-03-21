@@ -309,3 +309,15 @@ select {
     padding-top: 3%;
     padding-bottom: 3%;
 }
+
+.thead{
+  background-color: #deafa7;
+  color: aliceblue; 
+}
+.current-order{
+  background-color: #e4dedf;
+  color: #deafa7;
+}
+.current-order :hover{
+  background-color: #798486;
+}
